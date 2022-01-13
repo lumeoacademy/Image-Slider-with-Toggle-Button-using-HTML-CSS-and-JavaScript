@@ -1,0 +1,50 @@
+#{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.content{
+    height: 400px;
+    width: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content .images{
+    height: 100%;
+    width: 100%;
+}
+
+.images img{
+    height: 100%;
+    width: 100%;
+}
+
+.img-sliders{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    display: flex;
+    transform: translateX(-50%);
+}
+
+.img-sliders span{
+    height: 15px;
+    width: 50px;
+    border: 2px solid whitesmoke;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.img-sliders span:hover{
+    background: white;
+}
